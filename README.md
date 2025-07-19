@@ -1,81 +1,109 @@
-<h1 align="center">✨ OIBSIP Internship Projects ✨</h1>
-<p align="center">
-  🚀 Crafted with code, creativity & coffee during the <strong>Oasis Infobyte Internship Program</strong>
-</p>
-<p align="center">
-  <a href="https://github.com/Diljith-kp" target="_blank"><img src="https://img.shields.io/badge/Author-Diljith%20K%20P-blue?style=flat-square" /></a>
-  <a href="https://diljith.in" target="_blank"><img src="https://img.shields.io/badge/Portfolio-diljith.in-success?style=flat-square" /></a>
-  <a href="mailto:diljithkp2005@gmail.com"><img src="https://img.shields.io/badge/Contact-Mail-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-</p>
-
----
-
-## 🧠 Overview
-
-This repository showcases the impactful front-end solutions I developed during the **Oasis Infobyte Internship Program (OIBSIP)**. Each project is a testament to practical skill application, focusing on intuitive UI/UX, clean code architecture, and robust functionality, transforming core concepts into real-world web applications.
-
----
-
-## ✅ Internship Milestones: Completed Tasks
-
-<br>
-
-### &nbsp;&nbsp;&nbsp;&nbsp; 📝 Task 1: To-Do List Web App
-
-A highly interactive and user-centric task management application designed for seamless daily organization. This project emphasizes modern front-end practices, offering a fluid experience for managing personal tasks.
-
-* **Core Features:**
-    * **Intuitive Task Management:** Effortlessly add, mark as complete, or delete tasks.
-    * **Real-time Updates:** Dynamic UI updates provide immediate feedback.
-    * **Data Persistence:** Tasks are securely stored in `localStorage`, ensuring data integrity across sessions.
-* **Technologies Utilized:**
-    * <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-    * <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-    * <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-
-> 📸 *Preview:*
-> ![To-Do List Web App Screenshot](assets/todo-preview.png)
-
+<h1 align="center">🌟 AICTE Oasis Infobyte Internship Projects – Web Development 🌟</h1>
 
 <p align="center">
-  <a href="https://your-todo-app-live-link.com" target="_blank">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20App-%23007bff?style=for-the-badge&logo=appveyor&logoColor=white" alt="Live Demo Button" />
-  </a>
-  <a href="https://github.com/Diljith-kp/your-todo-app-repo" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Code-GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo Button" />
-  </a>
+  <img src="https://img.shields.io/badge/Intern-Diljith%20K%20P-8A2BE2?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Organization-Oasis%20Infobyte-FF8C00?style=for-the-badge&logo=target" />
+  <img src="https://img.shields.io/badge/Duration-July%202025-32CD32?style=for-the-badge&logo=calendar" />
+  <img src="https://img.shields.io/badge/Internship%20ID-OIB%2FY1%2FIP5045-1E90FF?style=for-the-badge&logo=id-card" />
 </p>
 
 ---
 
-### &nbsp;&nbsp;&nbsp;&nbsp; 🧮 Task 4: Calculator Web App
+## 📚 Internship Overview
 
-A robust and aesthetically pleasing web-based calculator, engineered to handle fundamental arithmetic operations with precision and a user-friendly interface. Its responsive design ensures optimal usability across all devices.
-
-* **Core Features:**
-    * **Accurate Calculations:** Supports addition, subtraction, multiplication, and division.
-    * **Responsive UI:** Adapts seamlessly to various screen sizes, from desktops to mobile phones.
-    * **Clear & Reset Functionality:** Easy clearing of inputs and results for new calculations.
-* **Technologies Utilized:**
-    * <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-    * <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-    * <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-
-> 📸 *Preview:*
-> ![Calculator Web App Screenshot](assets/calculator-preview.png)
-
-
-<p align="center">
-  <a href="https://your-calculator-app-live-link.com" target="_blank">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20App-%23007bff?style=for-the-badge&logo=appveyor&logoColor=white" alt="Live Demo Button" />
-  </a>
-  <a href="https://github.com/Diljith-kp/your-calculator-app-repo" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Code-GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo Button" />
-  </a>
-</p>
+🎯 **Domain:** Web Development & Designing  
+📅 **Duration:** 1 Month _(July 2025)_  
+🏢 **Organization:** [Oasis Infobyte](https://oasisinfobyte.com)  
+👨‍🎓 **Intern:** Diljith K P  
+🆔 **Internship ID:** OIB/Y1/IP5045
 
 ---
 
-## 📂 Repository Structure
+## ✅ Completed Tasks
 
-This repository is meticulously organized to ensure easy navigation and understanding of each project. Each task resides in its dedicated directory, containing all relevant source files.
+| 🚀 Task No. | 🎯 Project Name         | 💬 Description                                                                                 | ✅ Status |
+|------------|-------------------------|-----------------------------------------------------------------------------------------------|----------|
+| 🔢 `01`     | **Calculator Web App**   | A sleek, animated calculator app for basic arithmetic, real-time interaction & responsive UI. | ✅ Done   |
+| 📝 `04`     | **To-Do List Web App**   | Feature-rich task manager with localStorage, task completion, and live progress view.         | ✅ Done   |
+
+---
+
+## ✨ Live Preview Snapshots
+
+### 🔢 Calculator Web App
+<img src="https://github.com/YourUsername/OIBSIP/assets/calculator-preview.png" alt="Calculator App Screenshot" width="100%" />
+
+### 📝 To-Do List Web App
+<img src="https://github.com/YourUsername/OIBSIP/assets/todo-preview.png" alt="To-Do App Screenshot" width="100%" />
+
+---
+
+## 💡 Project Highlights
+
+### 🔢 Calculator Web App
+
+- 🔹 Clean UI with real-time calculation
+- 🔹 Supports keyboard & mouse input
+- 🔹 Responsive design for all screens
+
+> 🛠️ Built With: `HTML`, `CSS`, `JavaScript`
+
+📎 [Live Demo](#) • [Source Code](#)
+
+---
+
+### 📝 To-Do List Web App
+
+- 🆕 Add tasks with title & description  
+- ✅ Mark tasks as complete  
+- 🔄 Save with `localStorage` (auto-persisted)  
+- 📱 Mobile Responsive + Clean layout  
+
+> 🛠️ Built With: `HTML`, `CSS`, `JavaScript`
+
+📎 [Live Demo](#) • [Source Code](#)
+
+---
+
+## 🧰 Tech Stack
+
+| 🔧 Frontend | 🎨 Features Used            | 🛠️ Tools        |
+|------------|-----------------------------|-----------------|
+| `HTML5`    | Semantic Tags, Forms         | VS Code, GitHub |
+| `CSS3`     | Flexbox, Gradients, Shadows  | Shields.io      |
+| `JavaScript` | DOM Manipulation, Storage API | Live Server     |
+
+---
+
+## 📝 Documents
+
+- 📜 [✔️ Offer Letter (Issued)](https://drive.google.com/file/d/1xjI8juABtolqYRYyeFtaUeNjQRjl7_4p/view)
+- 🏆 Completion Certificate: _Pending (Will update once issued)_
+
+---
+
+## 🙋‍♂️ About Me
+
+Hi! I'm **Diljith K P**, a passionate 💻 **BCA student** and **self-driven full-stack web developer**.
+
+🚀 I specialize in crafting responsive UIs and dynamic web apps.  
+🎯 Currently enhancing my skills with real-world internship projects.
+
+🔗 [🌐 My Portfolio](https://diljith.in)  
+📬 [📧 Email Me](mailto:diljithkp2005@gmail.com)
+
+---
+
+## 🏢 About Oasis Infobyte
+
+> **Oasis Infobyte** is an ed-tech platform providing internship opportunities and real-world project experience in Web Dev, Data Science, ML, and Design.
+
+🌍 [Visit Official Website](https://oasisinfobyte.com)
+
+---
+
+
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&width=435&lines=Thank+you+for+visiting+%F0%9F%91%8B;Happy+Coding+%F0%9F%92%BB" alt="Typing SVG" />
+</p>
