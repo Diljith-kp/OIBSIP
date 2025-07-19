@@ -48,7 +48,7 @@
 
 > 🛠️ Built With: `HTML`, `CSS`, `JavaScript`
 
-📎 [Live Demo](#) • [Source Code](#)
+📎 [Live Demo](https://diljith.in/projects/to-do-list/) • [Source Code](https://github.com/Diljith-kp/OIBSIP/tree/main/to-do-list)
 
 ---
 
