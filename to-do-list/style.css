@@ -1,0 +1,203 @@
+/* ✅ Apply box-sizing to all elements for consistent sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #000000, #150537);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 25px;
+  font-size: 2.4em;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #555;
+  margin: 0 0 20px;
+  font-size: 1.7em;
+}
+
+/* Input Section */
+.input-section {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-section input[type="text"],
+.input-section textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.input-section input:focus,
+.input-section textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input-section textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.input-section button {
+  align-self: flex-end;
+  padding: 12px 24px;
+  font-size: 1.05em;
+  border: none;
+  border-radius: 6px;
+  background: #28a745;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+.input-section button:hover {
+  background: #218838;
+  transform: translateY(-2px);
+}
+
+/* Task Sections */
+.task-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.pending-section, .completed-section {
+  flex: 1 1 400px;
+  background: #fff;
+  color: #333;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  word-break: break-word;
+  vertical-align: top;
+}
+
+th {
+  background: #343a40;
+  color: #fff;
+  font-size: 0.95em;
+  text-transform: uppercase;
+}
+
+td {
+  background: #f8f9fa;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  appearance: none;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  position: relative;
+  top: -2px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+input[type="checkbox"]:checked::after {
+  content: '✔';
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Delete Button */
+button.delete-btn {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button.delete-btn:hover {
+  background: #c82333;
+}
+
+/* Completed Row */
+.completed-row {
+  background-color: #e9ecef !important;
+}
+
+.completed-row td {
+  color: #6c757d;
+}
+
+/* Fix Delete Column Width */
+td:last-child {
+  text-align: center;
+  width: 80px;
+}
+
+
