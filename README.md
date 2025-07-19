@@ -31,10 +31,10 @@
 ## ✨ Live Preview Snapshots
 
 ### 🔢 Calculator Web App
-<img src="https://github.com/YourUsername/OIBSIP/assets/calculator-preview.png" alt="Calculator App Screenshot" width="100%" />
+<img src="https://res.cloudinary.com/dptj37ebu/image/upload/v1752933858/Screenshot_2025-07-19_193232_wlbs3q.png" alt="Calculator App Screenshot" width="100%" />
 
 ### 📝 To-Do List Web App
-<img src="https://github.com/YourUsername/OIBSIP/assets/todo-preview.png" alt="To-Do App Screenshot" width="100%" />
+<img src="https://res.cloudinary.com/dptj37ebu/image/upload/v1752933858/Screenshot_2025-07-19_193232_wlbs3q.png" alt="To-Do App Screenshot" width="100%" />
 
 ---
 
