@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>To-Do List Web App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List Web App</h1>
+<p id="progress">Pending: 0 | Completed: 0</p>
+
+        <div class="input-section">
+            <input type="text" id="titleInput" placeholder="Task Title" required />
+            <textarea id="descriptionInput" placeholder="Task Description" required></textarea>
+            <button id="saveTaskBtn">Save Task</button>
+        </div>
+
+        <div class="task-sections">
+            <div class="pending-section">
+                <h2>Pending Tasks</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Complete</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pendingTaskTable">
+                        </tbody>
+                </table>
+            </div>
+
+            <div class="completed-section">
+                <h2>Completed Tasks</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="completedTaskTable">
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
