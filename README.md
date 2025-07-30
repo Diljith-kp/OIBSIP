@@ -34,7 +34,7 @@
 <img src="https://res.cloudinary.com/dptj37ebu/image/upload/v1752933858/Screenshot_2025-07-19_193232_wlbs3q.png" alt="Calculator App Screenshot" width="100%" />
 
 ### 📝 To-Do List Web App
-<img src="https://res.cloudinary.com/dptj37ebu/image/upload/v1752933858/Screenshot_2025-07-19_193232_wlbs3q.png" alt="To-Do App Screenshot" width="100%" />
+<img src="https://res.cloudinary.com/dptj37ebu/image/upload/v1753715692/Screenshot2025-07-28204058_asimax.jpg" alt="To-Do App Screenshot" width="100%" />
 
 ---
 
@@ -48,7 +48,7 @@
 
 > 🛠️ Built With: `HTML`, `CSS`, `JavaScript`
 
-📎 [Live Demo](https://diljith.in/projects/to-do-list/) • [Source Code](https://github.com/Diljith-kp/OIBSIP/tree/main/to-do-list)
+📎 [Live Demo](https://diljith-kp.github.io/OIBSIP/calculator/) • [Source Code](https://github.com/Diljith-kp/OIBSIP/tree/main/to-do-list)
 
 ---
 
