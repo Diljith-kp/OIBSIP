@@ -34,7 +34,7 @@
 <img src="https://res.cloudinary.com/dptj37ebu/image/upload/v1753897697/Screenshot2025-07-3023170_pxvi4p.jpg" alt="Calculator App Screenshot" width="57%" />
 
 ### 📝 To-Do List Web App
-<img src="https://res.cloudinary.com/dptj37ebu/image/upload/v1753715692/Screenshot2025-07-28204058_asimax.jpg" alt="To-Do App Screenshot" width="57%" />
+<img src="https://res.cloudinary.com/dptj37ebu/image/upload/v1753900900/CalculatorApponDarkTheme_yh4fvm.jpg" alt="To-Do App Screenshot" width="57%" />
 
 ---
 
