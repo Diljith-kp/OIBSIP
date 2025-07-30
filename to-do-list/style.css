@@ -1,4 +1,3 @@
-/* ✅ Apply box-sizing to all elements for consistent sizing */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -25,7 +24,6 @@ body {
   text-align: center;
 }
 
-/* Headings */
 h1 {
   margin-bottom: 25px;
   font-size: 2.4em;
@@ -39,7 +37,6 @@ h2 {
   font-size: 1.7em;
 }
 
-/* Input Section */
 .input-section {
   background: #fff;
   color: #333;
@@ -90,7 +87,6 @@ h2 {
   transform: translateY(-2px);
 }
 
-/* Task Sections */
 .task-sections {
   display: flex;
   flex-wrap: wrap;
@@ -108,7 +104,6 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -139,7 +134,6 @@ tr:last-child td {
   border-bottom: none;
 }
 
-/* Checkbox Styling */
 input[type="checkbox"] {
   width: 20px;
   height: 20px;
@@ -166,7 +160,6 @@ input[type="checkbox"]:checked::after {
   transform: translate(-50%, -50%);
 }
 
-/* Delete Button */
 button.delete-btn {
   background: #dc3545;
   color: #fff;
@@ -185,7 +178,6 @@ button.delete-btn:hover {
   background: #c82333;
 }
 
-/* Completed Row */
 .completed-row {
   background-color: #e9ecef !important;
 }
@@ -194,10 +186,7 @@ button.delete-btn:hover {
   color: #6c757d;
 }
 
-/* Fix Delete Column Width */
 td:last-child {
   text-align: center;
   width: 80px;
 }
-
-

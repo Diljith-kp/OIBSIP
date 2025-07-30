@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 🔹 1. Get all required elements
     const titleInput = document.getElementById('titleInput');
     const descInput = document.getElementById('descriptionInput');
     const saveBtn = document.getElementById('saveTaskBtn');
@@ -7,18 +6,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const completed = document.getElementById('completedTaskTable');
     const progress = document.getElementById('progress');
 
-    // 🔹 2. Update task counter
     function updateProgress() {
         progress.textContent = `Pending: ${pending.children.length} | Completed: ${completed.children.length}`;
     }
 
-    // 🔹 3. Save tasks to localStorage
     function saveToStorage() {
         localStorage.setItem('pendingTasks', pending.innerHTML);
         localStorage.setItem('completedTasks', completed.innerHTML);
     }
 
-    // 🔹 4. Rebind checkbox & delete button events for restored tasks
     function rebindEvents() {
         document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
             checkbox.addEventListener('change', () => {
@@ -42,7 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 🔹 5. Load tasks from localStorage
     function restoreFromStorage() {
         pending.innerHTML = localStorage.getItem('pendingTasks') || '';
         completed.innerHTML = localStorage.getItem('completedTasks') || '';
@@ -50,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
         updateProgress();
     }
 
-    // 🔹 6. Add new task
     saveBtn.addEventListener('click', () => {
         const title = titleInput.value.trim();
         const desc = descInput.value.trim();
@@ -65,7 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <td><button class="delete-btn">X</button></td>
         `;
 
-        // Add checkbox functionality
         const checkbox = row.querySelector('input');
         checkbox.addEventListener('change', () => {
             checkbox.disabled = true;
@@ -75,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
             saveToStorage();
         });
 
-        // Add delete functionality
         const delBtn = row.querySelector('.delete-btn');
         delBtn.addEventListener('click', () => {
             row.remove();
@@ -90,6 +82,5 @@ document.addEventListener('DOMContentLoaded', () => {
         saveToStorage();
     });
 
-    // 🔹 7. Initialize app
     restoreFromStorage();
 });
