@@ -29,6 +29,9 @@ function eq() {
 function C() {
   inputField.value = "0";
 }
+function del() {
+  inputField.value = inputField.value.slice(0, -1) || "0";
+}
 
 calculatorButtons.addEventListener('click', (event) => {
   const clickedButton = event.target;
@@ -42,6 +45,8 @@ calculatorButtons.addEventListener('click', (event) => {
     eq();
   } else if (clickedButton.classList.contains('clear')) {
     C();
+  } else if (clickedButton.classList.contains('delete-btn')) {
+    del();
   }
 });
 
