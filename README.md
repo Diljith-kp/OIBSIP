@@ -77,8 +77,9 @@
 
 ## 📝 Documents
 
-- 📜 [✔️ Offer Letter (Issued)](https://drive.google.com/file/d/1xjI8juABtolqYRYyeFtaUeNjQRjl7_4p/view)
-- 🏆 Completion Certificate: _Pending (Will update once issued)_
+- 📜 [ Offer Letter ](https://drive.google.com/file/d/1xjI8juABtolqYRYyeFtaUeNjQRjl7_4p/view)
+- 🏆 [ Completion Certificate ](https://drive.google.com/file/d/18WtuQ1aRBS-bku7d5GaDXZaS_kTTuSZl/view?usp=sharing)
+
 
 ---
 
